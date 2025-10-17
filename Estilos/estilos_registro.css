@@ -1,6 +1,6 @@
 body {
-    font-family: arial, sans-serif;
-    background-color: aliceblue;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -20,7 +20,7 @@ nav a {
 }
 
 .carrusel img {
-    width: 90px;
+    width: 90%;
     max-width: 600px;
     margin: 20px auto;
     display: none;
@@ -38,21 +38,19 @@ section.info {
     margin: auto;
     background-color: white;
     border-radius: 10px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
 }
 
 form {
     background: white;
     padding: 20px;
-    max-width: 400 px;
+    max-width: 400px;
     margin: 30px auto;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-input,
-textarea,
-button {
+input, textarea, button {
     width: 90%;
     margin: 10px 0;
     padding: 10px;
@@ -68,7 +66,7 @@ button {
 }
 
 button:hover {
-    background-color: #004080;
+    background-color: #00264d;
 }
 
 footer {
@@ -105,9 +103,7 @@ select {
     }
 }
 
-
-/* Estilos del formulario de resgistro */
-
+/* Estilo del formulario de registro */
 form {
     background-color: #ffffff;
     padding: 30px;

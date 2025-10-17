@@ -1,30 +1,21 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Login</title>
-    <link rel="stylesheet" href="../Estilos/estilos_contacto.css">
+    <meta charset="UFF-8">
+    </title>login</title>
+    <link rel="stylesheet" href="../Estilos/estilos_login.css">
 </head>
 <body>
-
     <header class="encabezado-principal"></header>
-    <script src="../js/header.js"></script> 
+    <script src="../js/header.js"></script>
 
-    
-    <form id="loginForm">
-        <h2> login </h2>
-        <input type="text" id="usuario" placeholder="Usuario" required>
-        <input type="password" id="clave" placeholder="Contraseña" required>
-        <button type="submit">Ingresar</button>
+
+    <form action="menu_principal.html" method="get">
+        <h2>login</h2>
+        <input type="text" placeholder=" usuario" required>
+        <input type="text" placeholder="Contraseña" required>   
+        <button type="submit">ingresar</button>
     </form>
-
-    <script>
-        
-        document.getElementById("loginForm").addEventListener("submit", function(e){
-            e.preventDefault(); r
-            window.location.href = "../vistas/menu_principal.html"; 
-        });
-    </script>
 
 </body>
 </html>

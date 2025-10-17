@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f8f8f8;
@@ -19,6 +20,7 @@ nav a {
     font-weight: bold;
 }
 
+
 section.info {
     padding: 20px;
     text-align: left;
@@ -26,7 +28,7 @@ section.info {
     margin: auto;
     background-color: white;
     border-radius: 10px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
 form {
@@ -35,7 +37,7 @@ form {
     max-width: 400px;
     margin: 30px auto;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 input, textarea, button {
@@ -54,7 +56,7 @@ button {
 }
 
 button:hover {
-    background-color: #00264d;
+    background-color: #004080;
 }
 
 footer {
@@ -63,4 +65,3 @@ footer {
     padding: 10px;
     margin-top: 30px;
 }
-
